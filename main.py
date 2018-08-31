@@ -25,19 +25,24 @@ input_arr = input_str.split("\t")
 # ------ using DFT ------
 T = float(input_arr[0])#read T
 N = len(input_arr)-1
-input_arr=input_arr[1:N]
+input_arr=input_arr[1:N] 
 output = DFT(input_arr)
 N = len(input_arr)
 output_abs = [abs(i) for i in output]
 
+plotxsgn = np.linspace(0.0, N*T,N)
+plotxspec = np.linspace(-1/(2*T), 1/(2*T),N)
 
-plotx = np.linspace(0.0, 1/T,N)
+for i in range(0,N/2):
+    temp = output_abs[i]
+    output_abs[i] = output_abs[i+N/2]
+    output_abs[i+N/2] = temp
 
-plt.plot(plotx, output)
+plt.plot(plotxsgn, output) # signal
 plt.grid()
 plt.show()
 
-plt.plot(plotx, output_abs)
+plt.plot(plotxspec, output_abs) # spectrum
 plt.grid()
 plt.show()
 # ------ using DFT ------
