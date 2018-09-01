@@ -28,9 +28,9 @@ for i in range(count): # receiving final harmonic
     final_harmonic += harmonic_arr
 
 #----- if you want create your dataset || example -----
-# a = np.sin(55.0 * 2.0*np.pi*x) # harmonic with frequency 50
-# b = 0.5*np.sin(25.0 * 2.0*np.pi*x) # harmonic with frequency 80 
-# c = 0.75*np.sin(50.0 * 2.0*np.pi*x) # harmonic with frequency 100
+# a = np.sin(55.0 * 2.0*np.pi*x) # harmonic with frequency 55
+# b = 0.5*np.sin(25.0 * 2.0*np.pi*x) # harmonic with frequency 25 
+# c = 0.75*np.sin(50.0 * 2.0*np.pi*x) # harmonic with frequency 50
 # y=a+b+c #finished harmonic
 #----/ if you want create your dataset || example -----
 
