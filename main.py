@@ -10,12 +10,12 @@ def DFT(input_arr):
     while k<N :
         for n in range(N):
             output_arr[k] += float(input_arr[n])*exp(complex(0,(-2*pi*n*k)/N)) #formula of DFT
-        k+=
+        k+=1
     return output_arr
 #--------- /DFT -------------
 
 # ------ reading from file------
-input_file = open('input_file.txt', 'r')
+input_file = open('input_file_1.txt', 'r')
 input_str = input_file.read()
 input_file.close()
 input_arr = input_str.split("\t")
