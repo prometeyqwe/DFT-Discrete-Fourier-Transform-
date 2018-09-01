@@ -14,13 +14,13 @@ Also an image is shown showing the previously announced data sets (input_1.png, 
 ######
 ## Information on data sets
 ### Data set 1:
-     Number of harmonics: 3
-     Frequencies: 25, 50, 55
-     Weights: 0.5, 0.75, 1
+    Number of harmonics: 3
+    Frequencies: 25, 50, 55
+    Weights: 0.5, 0.75, 1
 ### Data set 2:
-     Number of harmonics: 5
-     Frequencies: 9, 40, 24, 2, 38
-     Weights: 5, 4, 9, 4, 1
+    Number of harmonics: 5
+    Frequencies: 9, 40, 24, 2, 38
+    Weights: 5, 4, 9, 4, 1
 
 You can independently compose such harmonics and obtain the same result for spectral density as in pr
 ## Russian
