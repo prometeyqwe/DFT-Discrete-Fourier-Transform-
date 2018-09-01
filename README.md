@@ -1,5 +1,28 @@
 # DFT-Discrete-Fourier-Transform-
 ## Algorithm of Discrete Fourier Transform
+## English, GoogleTranslater
+## Description
+This program produces a Discrete Fourier Transformation, the input to the program receives a signal, the output is the spectral density of this signal. For clarity of its work schedules are constructed.
+######
+To demonstrate the operation of the program, you can use ready-made data sets (input_file_1.txt, input_file_2.txt), for this change the file name in main.py on line 18.
+######
+Also the generator of the sum of sinusoidal signals is added to the program, to work with it, replace the file name in the 18 line with the input.txt, and use the generator (generator.py), at the entrance to the program it is required to enter the necessary number of grammars, then the program pseudo-randomly selects for each harmonic of the weight value and the carrier frequency, will also build the received signal. Now you can use main.py to determine the spectral density of the signal just received.
+######
+If necessary, you can independently compose the harmonics you need, for this uncomment lines 30-35 and on line 38, 49 replace final_harmonic -> y.
+######
+Also an image is shown showing the previously announced data sets (input_1.png, input_2.png, output_1.png, output_2.png).
+######
+## Information on data sets
+### Data set 1:
+     Number of harmonics: 3
+     Frequencies: 25, 50, 55
+     Weights: 0.5, 0.75, 1
+### Data set 2:
+     Number of harmonics: 5
+     Frequencies: 9, 40, 24, 2, 38
+     Weights: 5, 4, 9, 4, 1
+
+You can independently compose such harmonics and obtain the same result for spectral density as in pr
 ## Russian
 ## Описание
 #####
@@ -25,26 +48,3 @@
 
 Вы можете самостоятельно составить такие гармоники и получить такой же результат для спектральной плотности как в приведенных изображениях. Как это сделать говорилось выше.
 ######
-## English, GoogleTranslater
-## Description
-This program produces a Discrete Fourier Transformation, the input to the program receives a signal, the output is the spectral density of this signal. For clarity of its work schedules are constructed.
-######
-To demonstrate the operation of the program, you can use ready-made data sets (input_file_1.txt, input_file_2.txt), for this change the file name in main.py on line 18.
-######
-Also the generator of the sum of sinusoidal signals is added to the program, to work with it, replace the file name in the 18 line with the input.txt, and use the generator (generator.py), at the entrance to the program it is required to enter the necessary number of grammars, then the program pseudo-randomly selects for each harmonic of the weight value and the carrier frequency, will also build the received signal. Now you can use main.py to determine the spectral density of the signal just received.
-######
-If necessary, you can independently compose the harmonics you need, for this uncomment lines 30-35 and on line 38, 49 replace final_harmonic -> y.
-######
-Also an image is shown showing the previously announced data sets (input_1.png, input_2.png, output_1.png, output_2.png).
-######
-## Information on data sets
-### Data set 1:
-     Number of harmonics: 3
-     Frequencies: 25, 50, 55
-     Weights: 0.5, 0.75, 1
-### Data set 2:
-     Number of harmonics: 5
-     Frequencies: 9, 40, 24, 2, 38
-     Weights: 5, 4, 9, 4, 1
-
-You can independently compose such harmonics and obtain the same result for spectral density as in pr
