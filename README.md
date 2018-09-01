@@ -22,7 +22,7 @@ Also an image is shown showing the previously announced data sets (input_1.png, 
     Frequencies: 9, 40, 24, 2, 38
     Weights: 5, 4, 9, 4, 1
 
-You can independently compose such harmonics and obtain the same result for spectral density as in pr
+You can independently compose such harmonics and obtain the same result for the spectral density as in the above images. How to do this was said above.
 ## Russian
 ## Описание
 #####
